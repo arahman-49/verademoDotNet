@@ -11,10 +11,6 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    defaults:
-          run:
-            working-directory: './verademo-dotnet/verademo-dotnetcore-master/app'
-
     steps:
       - uses: actions/checkout@v3
 
